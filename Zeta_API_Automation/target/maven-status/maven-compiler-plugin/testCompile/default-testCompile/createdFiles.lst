@@ -1,0 +1,7 @@
+com/RestAssured/TestCases/Get_Zometo_LocationDetails_From_Entity.class
+com/RestAssured/TestCases/Get_RestaurantDetail_From_RestaurentID.class
+com/RestAssured/TestCases/Get_LocationDetail_from_Coordinates.class
+com/RestAssured/base/TestBase.class
+com/RestAssured/TestCases/Get_List_Of_Categories.class
+com/RestAssured/Method/Http_methods.class
+com/RestAssured/TestCases/Get_CityDetail.class

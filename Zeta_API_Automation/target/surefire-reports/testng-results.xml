@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="16" passed="16">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Rest_API_Test_Suite" duration-ms="5847" started-at="2020-04-19T17:39:24Z" finished-at="2020-04-19T17:39:30Z">
+    <groups>
+    </groups>
+    <test name="RestAPITest" duration-ms="5847" started-at="2020-04-19T17:39:24Z" finished-at="2020-04-19T17:39:30Z">
+      <class name="com.RestAssured.TestCases.Get_LocationDetail_from_Coordinates">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.RestAssured.TestCases.Get_LocationDetail_from_Coordinates@1cd072a9]" name="setup" is-config="true" duration-ms="3" started-at="2020-04-19T23:09:28Z" finished-at="2020-04-19T23:09:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="getLocationDetailRequest()[pri:0, instance:com.RestAssured.TestCases.Get_LocationDetail_from_Coordinates@1cd072a9]" name="getLocationDetailRequest" is-config="true" duration-ms="443" started-at="2020-04-19T23:09:28Z" finished-at="2020-04-19T23:09:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getLocationDetailRequest -->
+        <test-method status="PASS" signature="checkResponseTime()[pri:0, instance:com.RestAssured.TestCases.Get_LocationDetail_from_Coordinates@1cd072a9]" name="checkResponseTime" duration-ms="1" started-at="2020-04-19T23:09:28Z" finished-at="2020-04-19T23:09:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method status="PASS" signature="checkStatusCode()[pri:0, instance:com.RestAssured.TestCases.Get_LocationDetail_from_Coordinates@1cd072a9]" name="checkStatusCode" duration-ms="1" started-at="2020-04-19T23:09:28Z" finished-at="2020-04-19T23:09:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method status="PASS" signature="checkStatusLine()[pri:0, instance:com.RestAssured.TestCases.Get_LocationDetail_from_Coordinates@1cd072a9]" name="checkStatusLine" duration-ms="0" started-at="2020-04-19T23:09:28Z" finished-at="2020-04-19T23:09:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusLine -->
+        <test-method status="PASS" signature="getLocationDetailResponse()[pri:0, instance:com.RestAssured.TestCases.Get_LocationDetail_from_Coordinates@1cd072a9]" name="getLocationDetailResponse" duration-ms="94" started-at="2020-04-19T23:09:28Z" finished-at="2020-04-19T23:09:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getLocationDetailResponse -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.RestAssured.TestCases.Get_LocationDetail_from_Coordinates@1cd072a9]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-04-19T23:09:28Z" finished-at="2020-04-19T23:09:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.RestAssured.TestCases.Get_LocationDetail_from_Coordinates -->
+      <class name="com.RestAssured.TestCases.Get_RestaurantDetail_From_RestaurentID">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.RestAssured.TestCases.Get_RestaurantDetail_From_RestaurentID@4c203ea1]" name="setup" is-config="true" duration-ms="2" started-at="2020-04-19T23:09:30Z" finished-at="2020-04-19T23:09:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="getRestaurantDetail_From_RestaurantsID_Request()[pri:0, instance:com.RestAssured.TestCases.Get_RestaurantDetail_From_RestaurentID@4c203ea1]" name="getRestaurantDetail_From_RestaurantsID_Request" is-config="true" duration-ms="741" started-at="2020-04-19T23:09:30Z" finished-at="2020-04-19T23:09:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getRestaurantDetail_From_RestaurantsID_Request -->
+        <test-method status="PASS" signature="checkResponseTime()[pri:0, instance:com.RestAssured.TestCases.Get_RestaurantDetail_From_RestaurentID@4c203ea1]" name="checkResponseTime" duration-ms="0" started-at="2020-04-19T23:09:30Z" finished-at="2020-04-19T23:09:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method status="PASS" signature="checkStatusLine()[pri:0, instance:com.RestAssured.TestCases.Get_RestaurantDetail_From_RestaurentID@4c203ea1]" name="checkStatusLine" duration-ms="1" started-at="2020-04-19T23:09:30Z" finished-at="2020-04-19T23:09:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusLine -->
+        <test-method status="PASS" signature="checkStatusCode()[pri:0, instance:com.RestAssured.TestCases.Get_RestaurantDetail_From_RestaurentID@4c203ea1]" name="checkStatusCode" duration-ms="0" started-at="2020-04-19T23:09:30Z" finished-at="2020-04-19T23:09:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method status="PASS" signature="getRestaurantDetail_From_RestaurantID_Response()[pri:0, instance:com.RestAssured.TestCases.Get_RestaurantDetail_From_RestaurentID@4c203ea1]" name="getRestaurantDetail_From_RestaurantID_Response" duration-ms="32" started-at="2020-04-19T23:09:30Z" finished-at="2020-04-19T23:09:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getRestaurantDetail_From_RestaurantID_Response -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.RestAssured.TestCases.Get_RestaurantDetail_From_RestaurentID@4c203ea1]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-04-19T23:09:30Z" finished-at="2020-04-19T23:09:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.RestAssured.TestCases.Get_RestaurantDetail_From_RestaurentID -->
+      <class name="com.RestAssured.TestCases.Get_Zometo_LocationDetails_From_Entity">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.RestAssured.TestCases.Get_Zometo_LocationDetails_From_Entity@7c75222b]" name="setup" is-config="true" duration-ms="1" started-at="2020-04-19T23:09:28Z" finished-at="2020-04-19T23:09:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="getLocationDetail_From_Entity_Request()[pri:0, instance:com.RestAssured.TestCases.Get_Zometo_LocationDetails_From_Entity@7c75222b]" name="getLocationDetail_From_Entity_Request" is-config="true" duration-ms="1240" started-at="2020-04-19T23:09:28Z" finished-at="2020-04-19T23:09:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getLocationDetail_From_Entity_Request -->
+        <test-method status="PASS" signature="checkResponseTime()[pri:0, instance:com.RestAssured.TestCases.Get_Zometo_LocationDetails_From_Entity@7c75222b]" name="checkResponseTime" duration-ms="1" started-at="2020-04-19T23:09:29Z" finished-at="2020-04-19T23:09:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method status="PASS" signature="checkStatusCode()[pri:0, instance:com.RestAssured.TestCases.Get_Zometo_LocationDetails_From_Entity@7c75222b]" name="checkStatusCode" duration-ms="1" started-at="2020-04-19T23:09:29Z" finished-at="2020-04-19T23:09:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method status="PASS" signature="checkStatusLine()[pri:0, instance:com.RestAssured.TestCases.Get_Zometo_LocationDetails_From_Entity@7c75222b]" name="checkStatusLine" duration-ms="0" started-at="2020-04-19T23:09:29Z" finished-at="2020-04-19T23:09:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusLine -->
+        <test-method status="PASS" signature="getLocationDetail_From_Entity_Response()[pri:0, instance:com.RestAssured.TestCases.Get_Zometo_LocationDetails_From_Entity@7c75222b]" name="getLocationDetail_From_Entity_Response" duration-ms="105" started-at="2020-04-19T23:09:29Z" finished-at="2020-04-19T23:09:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getLocationDetail_From_Entity_Response -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.RestAssured.TestCases.Get_Zometo_LocationDetails_From_Entity@7c75222b]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-04-19T23:09:30Z" finished-at="2020-04-19T23:09:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.RestAssured.TestCases.Get_Zometo_LocationDetails_From_Entity -->
+      <class name="com.RestAssured.TestCases.Get_List_Of_Categories">
+        <test-method status="PASS" signature="excel_call()[pri:0, instance:com.RestAssured.TestCases.Get_List_Of_Categories@e580929]" name="excel_call" is-config="true" duration-ms="841" started-at="2020-04-19T23:09:23Z" finished-at="2020-04-19T23:09:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- excel_call -->
+        <test-method status="PASS" signature="excel_call()[pri:0, instance:com.RestAssured.TestCases.Get_LocationDetail_from_Coordinates@1cd072a9]" name="excel_call" is-config="true" duration-ms="51" started-at="2020-04-19T23:09:24Z" finished-at="2020-04-19T23:09:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- excel_call -->
+        <test-method status="PASS" signature="excel_call()[pri:0, instance:com.RestAssured.TestCases.Get_RestaurantDetail_From_RestaurentID@4c203ea1]" name="excel_call" is-config="true" duration-ms="61" started-at="2020-04-19T23:09:24Z" finished-at="2020-04-19T23:09:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- excel_call -->
+        <test-method status="PASS" signature="excel_call()[pri:0, instance:com.RestAssured.TestCases.Get_Zometo_LocationDetails_From_Entity@7c75222b]" name="excel_call" is-config="true" duration-ms="38" started-at="2020-04-19T23:09:24Z" finished-at="2020-04-19T23:09:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- excel_call -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.RestAssured.TestCases.Get_List_Of_Categories@e580929]" name="setup" is-config="true" duration-ms="101" started-at="2020-04-19T23:09:24Z" finished-at="2020-04-19T23:09:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="getListOfCategoryRequest()[pri:0, instance:com.RestAssured.TestCases.Get_List_Of_Categories@e580929]" name="getListOfCategoryRequest" is-config="true" duration-ms="2094" started-at="2020-04-19T23:09:25Z" finished-at="2020-04-19T23:09:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getListOfCategoryRequest -->
+        <test-method status="PASS" signature="checkResponseTime()[pri:0, instance:com.RestAssured.TestCases.Get_List_Of_Categories@e580929]" name="checkResponseTime" duration-ms="2" started-at="2020-04-19T23:09:27Z" finished-at="2020-04-19T23:09:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method status="PASS" signature="checkStatusCode()[pri:0, instance:com.RestAssured.TestCases.Get_List_Of_Categories@e580929]" name="checkStatusCode" duration-ms="4" started-at="2020-04-19T23:09:27Z" finished-at="2020-04-19T23:09:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method status="PASS" signature="checkStatusLine()[pri:0, instance:com.RestAssured.TestCases.Get_List_Of_Categories@e580929]" name="checkStatusLine" duration-ms="1" started-at="2020-04-19T23:09:27Z" finished-at="2020-04-19T23:09:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusLine -->
+        <test-method status="PASS" signature="getListOfCategoryResponse()[pri:0, instance:com.RestAssured.TestCases.Get_List_Of_Categories@e580929]" name="getListOfCategoryResponse" duration-ms="960" started-at="2020-04-19T23:09:27Z" finished-at="2020-04-19T23:09:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getListOfCategoryResponse -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.RestAssured.TestCases.Get_List_Of_Categories@e580929]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-04-19T23:09:28Z" finished-at="2020-04-19T23:09:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="excel_close()[pri:0, instance:com.RestAssured.TestCases.Get_List_Of_Categories@e580929]" name="excel_close" is-config="true" duration-ms="115" started-at="2020-04-19T23:09:30Z" finished-at="2020-04-19T23:09:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- excel_close -->
+        <test-method status="PASS" signature="excel_close()[pri:0, instance:com.RestAssured.TestCases.Get_LocationDetail_from_Coordinates@1cd072a9]" name="excel_close" is-config="true" duration-ms="30" started-at="2020-04-19T23:09:30Z" finished-at="2020-04-19T23:09:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- excel_close -->
+        <test-method status="PASS" signature="excel_close()[pri:0, instance:com.RestAssured.TestCases.Get_RestaurantDetail_From_RestaurentID@4c203ea1]" name="excel_close" is-config="true" duration-ms="22" started-at="2020-04-19T23:09:30Z" finished-at="2020-04-19T23:09:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- excel_close -->
+        <test-method status="PASS" signature="excel_close()[pri:0, instance:com.RestAssured.TestCases.Get_Zometo_LocationDetails_From_Entity@7c75222b]" name="excel_close" is-config="true" duration-ms="21" started-at="2020-04-19T23:09:31Z" finished-at="2020-04-19T23:09:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- excel_close -->
+      </class> <!-- com.RestAssured.TestCases.Get_List_Of_Categories -->
+    </test> <!-- RestAPITest -->
+  </suite> <!-- Rest_API_Test_Suite -->
+</testng-results>

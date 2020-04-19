@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Rest_API_Test_Suite]">
+  <test thread-count="4" name="RestAPITest">
+    <classes>
+      <class name="com.RestAssured.TestCases.Get_List_Of_Categories"/>
+      <class name="com.RestAssured.TestCases.Get_LocationDetail_from_Coordinates"/>
+      <class name="com.RestAssured.TestCases.Get_Zometo_LocationDetails_From_Entity"/>
+      <class name="com.RestAssured.TestCases.Get_RestaurantDetail_From_RestaurentID"/>
+    </classes>
+  </test> <!-- RestAPITest -->
+</suite> <!-- Failed suite [Rest_API_Test_Suite] -->

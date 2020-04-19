@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="1777" started-at="2020-04-19T17:31:05Z" finished-at="2020-04-19T17:31:07Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="1777" started-at="2020-04-19T17:31:05Z" finished-at="2020-04-19T17:31:07Z">
+      <class name="com.RestAssured.TestCases.Get_RestaurantDetail_From_RestaurentID">
+        <test-method status="PASS" signature="excel_call()[pri:0, instance:com.RestAssured.TestCases.Get_RestaurantDetail_From_RestaurentID@3bbc39f8]" name="excel_call" is-config="true" duration-ms="419" started-at="2020-04-19T23:01:05Z" finished-at="2020-04-19T23:01:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- excel_call -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.RestAssured.TestCases.Get_RestaurantDetail_From_RestaurentID@3bbc39f8]" name="setup" is-config="true" duration-ms="33" started-at="2020-04-19T23:01:05Z" finished-at="2020-04-19T23:01:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="getRestaurantDetail_From_RestaurantsID_Request()[pri:0, instance:com.RestAssured.TestCases.Get_RestaurantDetail_From_RestaurentID@3bbc39f8]" name="getRestaurantDetail_From_RestaurantsID_Request" is-config="true" duration-ms="1167" started-at="2020-04-19T23:01:05Z" finished-at="2020-04-19T23:01:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getRestaurantDetail_From_RestaurantsID_Request -->
+        <test-method status="PASS" signature="checkResponseTime()[pri:0, instance:com.RestAssured.TestCases.Get_RestaurantDetail_From_RestaurentID@3bbc39f8]" name="checkResponseTime" duration-ms="5" started-at="2020-04-19T23:01:06Z" finished-at="2020-04-19T23:01:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method status="PASS" signature="checkStatusCode()[pri:0, instance:com.RestAssured.TestCases.Get_RestaurantDetail_From_RestaurentID@3bbc39f8]" name="checkStatusCode" duration-ms="3" started-at="2020-04-19T23:01:06Z" finished-at="2020-04-19T23:01:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method status="PASS" signature="checkStatusLine()[pri:0, instance:com.RestAssured.TestCases.Get_RestaurantDetail_From_RestaurentID@3bbc39f8]" name="checkStatusLine" duration-ms="1" started-at="2020-04-19T23:01:06Z" finished-at="2020-04-19T23:01:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusLine -->
+        <test-method status="PASS" signature="getRestaurantDetail_From_RestaurantID_Response()[pri:0, instance:com.RestAssured.TestCases.Get_RestaurantDetail_From_RestaurentID@3bbc39f8]" name="getRestaurantDetail_From_RestaurantID_Response" duration-ms="557" started-at="2020-04-19T23:01:06Z" finished-at="2020-04-19T23:01:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getRestaurantDetail_From_RestaurantID_Response -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.RestAssured.TestCases.Get_RestaurantDetail_From_RestaurentID@3bbc39f8]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-04-19T23:01:07Z" finished-at="2020-04-19T23:01:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="excel_close()[pri:0, instance:com.RestAssured.TestCases.Get_RestaurantDetail_From_RestaurentID@3bbc39f8]" name="excel_close" is-config="true" duration-ms="83" started-at="2020-04-19T23:01:07Z" finished-at="2020-04-19T23:01:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- excel_close -->
+      </class> <!-- com.RestAssured.TestCases.Get_RestaurantDetail_From_RestaurentID -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
